@@ -75,11 +75,82 @@ namespace Server.Controllers
             employee.ImageName = imgData.ImgName;
             employee.ImageUrl= imgData.ImgName;
 
-            List<Experience> experienceList = JsonConvert.DeserializeObject<List<Experience>>(obj.Experiences!);
+            List<Experience> experienceList = JsonConvert.DeserializeObject<List<Experience>>(obj.Experiences);
             employee.Experiences = experienceList;
             _db.Employees.Add(employee);
             await _db.SaveChangesAsync();
             return Ok(employee);
         }
+        [HttpPut()]
+        public async Task<IActionResult> PutEmployee(int id, [FromForm] Common objCommon)
+        {
+            var empObj = await _db.Employees.FindAsync(id);
+            if (empObj == null)
+            {
+                return NotFound("No Employee Found");
+            }
+           ImageUpload fileApi= new ImageUpload();
+            if (objCommon.ImageFile?.Length > 0)
+            {
+                string fileName = objCommon.ImageName + ".png";
+                fileApi.ImgName = "\\images\\" + fileName;
+                if (!Directory.Exists(_web.WebRootPath + "\\images\\"))
+                {
+                    Directory.CreateDirectory(_web.WebRootPath + "\\images\\");
+
+                }
+                string filePath = _web.WebRootPath + "\\images\\" + fileName;
+                using (FileStream stream = System.IO.File.Create(filePath))
+                {
+                    objCommon.ImageFile.CopyTo(stream);
+                    stream.Flush();
+
+                }
+                fileApi.ImgName = "/images/" + fileName;
+            }
+            else {
+                fileApi.ImgName = objCommon.ImageName;
+            }
+            empObj.Name= objCommon.Name;
+            empObj.IsActive = objCommon.IsActive;
+            empObj.JoinDate = objCommon.JoinDate;
+            empObj.ImageName= objCommon.ImageName;
+            empObj.ImageUrl = fileApi.ImgName;
+            List<Experience> expList = JsonConvert.DeserializeObject<List<Experience>>(objCommon.Experiences);
+            var existingExperiences=_db.Experiences.Where(x=>x.EmployeeId==id);
+            _db.Experiences.RemoveRange(existingExperiences);
+
+            if(expList.Any())
+            {
+                foreach (Experience ex in expList) {
+                    Experience Exp = new Experience
+                    {
+                        EmployeeId = ex.EmployeeId,
+                        Title = ex.Title,
+                        Duration
+                        = ex.Duration,
+                    };
+                    _db.Experiences.Add(Exp);
+                }
+                await _db.SaveChangesAsync();
+                
+            }
+            return Ok("Employee Updated Successfully");
+        }
+        [HttpDelete]
+        public async Task<IActionResult> DeleteEmployee(int id)
+        {
+            var obj =await _db.Employees.FindAsync(id);
+            if (obj == null)
+            
+                return NotFound("Employee Not Found");
+            
+            _db.Employees.Remove(obj);
+            await _db.SaveChangesAsync();
+            return Ok("Employee Deleted Successfully");
+
+        }
+
+
     }
 }

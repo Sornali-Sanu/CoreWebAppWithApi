@@ -49,6 +49,104 @@
             "description": "OK"
           }
         }
+      },
+      "put": {
+        "tags": [
+          "Employees"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "EmployeeId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Name": {
+                    "type": "string"
+                  },
+                  "IsActive": {
+                    "type": "boolean"
+                  },
+                  "JoinDate": {
+                    "type": "string",
+                    "format": "date"
+                  },
+                  "ImageFile": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "ImageName": {
+                    "type": "string"
+                  },
+                  "Experiences": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "EmployeeId": {
+                  "style": "form"
+                },
+                "Name": {
+                  "style": "form"
+                },
+                "IsActive": {
+                  "style": "form"
+                },
+                "JoinDate": {
+                  "style": "form"
+                },
+                "ImageFile": {
+                  "style": "form"
+                },
+                "ImageName": {
+                  "style": "form"
+                },
+                "Experiences": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Employees"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     },
     "/api/Employees/{id}": {

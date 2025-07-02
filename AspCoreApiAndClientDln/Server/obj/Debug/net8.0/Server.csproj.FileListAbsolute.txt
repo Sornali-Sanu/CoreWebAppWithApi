@@ -143,3 +143,4 @@ C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\bin\Debug\ne
 C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\obj\Debug\net8.0\Server.sourcelink.json

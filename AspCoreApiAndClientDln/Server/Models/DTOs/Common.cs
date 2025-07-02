@@ -12,6 +12,6 @@ namespace Server.Models.DTOs
         public DateTime JoinDate { get; set; }
         public IFormFile? ImageFile { get; set; }
         public string? ImageName { get; set; }
-        public string? Experiences { get; set; } = null!;
+        public string Experiences { get; set; }
     }
 }

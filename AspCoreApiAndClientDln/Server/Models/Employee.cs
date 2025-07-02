@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.Text.Json.Serialization;
 
 namespace Server.Models
 {
@@ -20,7 +21,8 @@ namespace Server.Models
         public string Title { get; set; }
         public int Duration { get; set; }
         public int EmployeeId { get; set; }
-        public virtual Employee Employee { get; set; } = null!;
+        [JsonIgnore]
+        public virtual Employee? Employee { get; set; } = null!;
     }
     public class AppDbContext :DbContext 
     {
