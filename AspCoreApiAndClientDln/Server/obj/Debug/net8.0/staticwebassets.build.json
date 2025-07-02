@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "WcuVEVBwI7thR/HN74JKjDcQTgrw4WfAcomBuUnsCqA=",
+  "Source": "Server",
+  "BasePath": "_content/Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Server\\wwwroot",
+      "Source": "Server",
+      "ContentRoot": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\",
+      "BasePath": "_content/Server",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}
