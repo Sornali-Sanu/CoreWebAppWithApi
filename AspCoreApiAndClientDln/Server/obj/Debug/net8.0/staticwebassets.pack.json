@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\Barbie31.jpg",
+      "PackagePath": "staticwebassets\\images\\Barbie31.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\Barbie31.jpg.png",
+      "PackagePath": "staticwebassets\\images\\Barbie31.jpg.png"
+    },
+    {
+      "Id": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\backGround.jpg.png",
+      "PackagePath": "staticwebassets\\images\\backGround.jpg.png"
+    },
+    {
+      "Id": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\backgroundemployee.jpeg.png",
+      "PackagePath": "staticwebassets\\images\\backgroundemployee.jpeg.png"
+    },
+    {
+      "Id": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\customer.jpg.png",
+      "PackagePath": "staticwebassets\\images\\customer.jpg.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Server.props",
+      "PackagePath": "build\\Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Server.props",
+      "PackagePath": "buildMultiTargeting\\Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Server.props",
+      "PackagePath": "buildTransitive\\Server.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

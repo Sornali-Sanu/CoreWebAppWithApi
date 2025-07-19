@@ -18,9 +18,39 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "obj",
-        "Type": "Server.Models.DTOs.Common",
-        "IsRequired": true
+        "Name": "EmployeeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "JoinDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "ImageName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Experiences",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

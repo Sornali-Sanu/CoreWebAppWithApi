@@ -10,6 +10,8 @@ C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\bin\Debug\ne
 C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\bin\Debug\net8.0\Humanizer.dll
+C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -34,6 +36,8 @@ C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\bin\Debug\ne
 C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -122,6 +126,7 @@ C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\obj\Debug\ne
 C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\obj\Debug\net8.0\Server.csproj.CoreCompileInputs.cache
 C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\obj\Debug\net8.0\Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\obj\Debug\net8.0\Server.sourcelink.json
 C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\obj\Debug\net8.0\scopedcss\bundle\Server.styles.css
 C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\obj\Debug\net8.0\staticwebassets.development.json
@@ -139,8 +144,3 @@ C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\obj\Debug\ne
 C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\obj\Debug\net8.0\Server.pdb
 C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
 C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\obj\Debug\net8.0\ref\Server.dll
-C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\bin\Debug\net8.0\Newtonsoft.Json.dll
-C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
-C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
-C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
-C:\Users\SAGOR\Desktop\New folder (2)\AspCoreApiAndClientDln\Server\obj\Debug\net8.0\Server.sourcelink.json

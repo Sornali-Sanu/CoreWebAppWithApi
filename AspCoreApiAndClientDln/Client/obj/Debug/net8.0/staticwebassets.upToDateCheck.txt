@@ -1,0 +1,4 @@
+wwwroot\bootstrap\css\bootstrap.min.css
+wwwroot\bootstrap\js\bootstrap.min.js
+wwwroot\images\backgroundemp.jpeg
+wwwroot\jquery\jquery.min.js

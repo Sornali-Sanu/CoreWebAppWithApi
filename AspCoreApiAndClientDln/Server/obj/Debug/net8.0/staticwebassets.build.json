@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WcuVEVBwI7thR/HN74JKjDcQTgrw4WfAcomBuUnsCqA=",
+  "Hash": "WtSvx2r9XlmuAkTAnhQeXRVDRWsXgcILvmAWAVNKiXA=",
   "Source": "Server",
   "BasePath": "_content/Server",
   "Mode": "Default",
@@ -15,6 +15,523 @@
       "Pattern": "**"
     }
   ],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\backGround.jpg.png",
+      "SourceId": "Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\",
+      "BasePath": "_content/Server",
+      "RelativePath": "images/backGround.jpg#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\backGround.jpg.png"
+    },
+    {
+      "Identity": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\backgroundemployee.jpeg.png",
+      "SourceId": "Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\",
+      "BasePath": "_content/Server",
+      "RelativePath": "images/backgroundemployee.jpeg#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\backgroundemployee.jpeg.png"
+    },
+    {
+      "Identity": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\Barbie31.jpg",
+      "SourceId": "Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\",
+      "BasePath": "_content/Server",
+      "RelativePath": "images/Barbie31#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Barbie31.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\Barbie31.jpg.png",
+      "SourceId": "Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\",
+      "BasePath": "_content/Server",
+      "RelativePath": "images/Barbie31.jpg#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ipweew5fc",
+      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Barbie31.jpg.png"
+    },
+    {
+      "Identity": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\customer.jpg.png",
+      "SourceId": "Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\",
+      "BasePath": "_content/Server",
+      "RelativePath": "images/customer.jpg#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "55fwadiwai",
+      "Integrity": "Vy01A8c9LzLqbPAYSgDeUs+jVdaRBjzSZnC9GnjJKuQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\customer.jpg.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "images/backGround.jpg.5ipweew5fc.png",
+      "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\backGround.jpg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 13:41:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/backGround.jpg.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "images/backGround.jpg.png",
+      "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\backGround.jpg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 13:41:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "images/backgroundemployee.jpeg.5ipweew5fc.png",
+      "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\backgroundemployee.jpeg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 13:40:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/backgroundemployee.jpeg.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "images/backgroundemployee.jpeg.png",
+      "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\backgroundemployee.jpeg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 13:40:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "images/Barbie31.5ipweew5fc.jpg",
+      "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\Barbie31.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 14:00:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Barbie31.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "images/Barbie31.jpg",
+      "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\Barbie31.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 14:00:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "images/Barbie31.jpg.5ipweew5fc.png",
+      "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\Barbie31.jpg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 13:51:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ipweew5fc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Barbie31.jpg.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "images/Barbie31.jpg.png",
+      "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\Barbie31.jpg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "0"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 13:51:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+        }
+      ]
+    },
+    {
+      "Route": "images/customer.jpg.55fwadiwai.png",
+      "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\customer.jpg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vy01A8c9LzLqbPAYSgDeUs+jVdaRBjzSZnC9GnjJKuQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 13:23:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "55fwadiwai"
+        },
+        {
+          "Name": "label",
+          "Value": "images/customer.jpg.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vy01A8c9LzLqbPAYSgDeUs+jVdaRBjzSZnC9GnjJKuQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/customer.jpg.png",
+      "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\customer.jpg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Vy01A8c9LzLqbPAYSgDeUs+jVdaRBjzSZnC9GnjJKuQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 13:23:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Vy01A8c9LzLqbPAYSgDeUs+jVdaRBjzSZnC9GnjJKuQ="
+        }
+      ]
+    }
+  ]
 }

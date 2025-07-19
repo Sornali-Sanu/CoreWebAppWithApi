@@ -1,0 +1,640 @@
+{
+  "Version": 1,
+  "Hash": "MlldcO0SdDC9fWqXZBtl4MR7XSR/1+G+O8FFuDQzt7E=",
+  "Source": "Client",
+  "BasePath": "_content/Client",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Client\\wwwroot",
+      "Source": "Client",
+      "ContentRoot": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\wwwroot\\",
+      "BasePath": "_content/Client",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Client.styles.css",
+      "SourceId": "Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/Client",
+      "RelativePath": "Client#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "j1furynpal",
+      "Integrity": "pxpw05gsXoZO7HSME51nWvtB6Cp6SyqalRWPmmrZR74=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Client.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Client.bundle.scp.css",
+      "SourceId": "Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/Client",
+      "RelativePath": "Client#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "j1furynpal",
+      "Integrity": "pxpw05gsXoZO7HSME51nWvtB6Cp6SyqalRWPmmrZR74=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Client.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\wwwroot\\bootstrap\\css\\bootstrap.min.css",
+      "SourceId": "Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\wwwroot\\",
+      "BasePath": "_content/Client",
+      "RelativePath": "bootstrap/css/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7z09619q9j",
+      "Integrity": "zRgmWB5PK4CvTx4FiXsxbHaYRBBjz/rvu97sOC7kzXI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\wwwroot\\bootstrap\\js\\bootstrap.min.js",
+      "SourceId": "Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\wwwroot\\",
+      "BasePath": "_content/Client",
+      "RelativePath": "bootstrap/js/bootstrap.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7183nd47gn",
+      "Integrity": "lel57Jim1/CW4I1iEkaHexK/J9h/ZRneeORKiQuNOIg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\wwwroot\\images\\backgroundemp.jpeg",
+      "SourceId": "Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\wwwroot\\",
+      "BasePath": "_content/Client",
+      "RelativePath": "images/backgroundemp#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fzfcdy31dt",
+      "Integrity": "60Dsbak+os1aibxHWwMAUr0OAZqYt1+v0kSfZBTIhG8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\backgroundemp.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\wwwroot\\jquery\\jquery.min.js",
+      "SourceId": "Client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\wwwroot\\",
+      "BasePath": "_content/Client",
+      "RelativePath": "jquery/jquery.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o1o13a6vjx",
+      "Integrity": "/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\jquery\\jquery.min.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "bootstrap/css/bootstrap.min.7z09619q9j.css",
+      "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\wwwroot\\bootstrap\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232018"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zRgmWB5PK4CvTx4FiXsxbHaYRBBjz/rvu97sOC7kzXI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Jul 2025 13:31:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7z09619q9j"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/css/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zRgmWB5PK4CvTx4FiXsxbHaYRBBjz/rvu97sOC7kzXI="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/css/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\wwwroot\\bootstrap\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232018"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zRgmWB5PK4CvTx4FiXsxbHaYRBBjz/rvu97sOC7kzXI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Jul 2025 13:31:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zRgmWB5PK4CvTx4FiXsxbHaYRBBjz/rvu97sOC7kzXI="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/js/bootstrap.min.7183nd47gn.js",
+      "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\wwwroot\\bootstrap\\js\\bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lel57Jim1/CW4I1iEkaHexK/J9h/ZRneeORKiQuNOIg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Jul 2025 13:31:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7183nd47gn"
+        },
+        {
+          "Name": "label",
+          "Value": "bootstrap/js/bootstrap.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lel57Jim1/CW4I1iEkaHexK/J9h/ZRneeORKiQuNOIg="
+        }
+      ]
+    },
+    {
+      "Route": "bootstrap/js/bootstrap.min.js",
+      "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\wwwroot\\bootstrap\\js\\bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lel57Jim1/CW4I1iEkaHexK/J9h/ZRneeORKiQuNOIg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Jul 2025 13:31:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lel57Jim1/CW4I1iEkaHexK/J9h/ZRneeORKiQuNOIg="
+        }
+      ]
+    },
+    {
+      "Route": "Client.bundle.scp.css",
+      "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Client.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pxpw05gsXoZO7HSME51nWvtB6Cp6SyqalRWPmmrZR74=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 13:22:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pxpw05gsXoZO7HSME51nWvtB6Cp6SyqalRWPmmrZR74="
+        }
+      ]
+    },
+    {
+      "Route": "Client.j1furynpal.bundle.scp.css",
+      "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Client.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pxpw05gsXoZO7HSME51nWvtB6Cp6SyqalRWPmmrZR74=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 13:22:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j1furynpal"
+        },
+        {
+          "Name": "label",
+          "Value": "Client.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pxpw05gsXoZO7HSME51nWvtB6Cp6SyqalRWPmmrZR74="
+        }
+      ]
+    },
+    {
+      "Route": "Client.j1furynpal.styles.css",
+      "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Client.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pxpw05gsXoZO7HSME51nWvtB6Cp6SyqalRWPmmrZR74=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 13:22:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j1furynpal"
+        },
+        {
+          "Name": "label",
+          "Value": "Client.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pxpw05gsXoZO7HSME51nWvtB6Cp6SyqalRWPmmrZR74="
+        }
+      ]
+    },
+    {
+      "Route": "Client.styles.css",
+      "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Client.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1124"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pxpw05gsXoZO7HSME51nWvtB6Cp6SyqalRWPmmrZR74=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 13:22:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pxpw05gsXoZO7HSME51nWvtB6Cp6SyqalRWPmmrZR74="
+        }
+      ]
+    },
+    {
+      "Route": "images/backgroundemp.fzfcdy31dt.jpeg",
+      "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\wwwroot\\images\\backgroundemp.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5496"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"60Dsbak+os1aibxHWwMAUr0OAZqYt1+v0kSfZBTIhG8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 08:02:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fzfcdy31dt"
+        },
+        {
+          "Name": "label",
+          "Value": "images/backgroundemp.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-60Dsbak+os1aibxHWwMAUr0OAZqYt1+v0kSfZBTIhG8="
+        }
+      ]
+    },
+    {
+      "Route": "images/backgroundemp.jpeg",
+      "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\wwwroot\\images\\backgroundemp.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5496"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"60Dsbak+os1aibxHWwMAUr0OAZqYt1+v0kSfZBTIhG8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 05 Jul 2025 08:02:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-60Dsbak+os1aibxHWwMAUr0OAZqYt1+v0kSfZBTIhG8="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.min.js",
+      "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\wwwroot\\jquery\\jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Jul 2025 13:31:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        }
+      ]
+    },
+    {
+      "Route": "jquery/jquery.min.o1o13a6vjx.js",
+      "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\wwwroot\\jquery\\jquery.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87533"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Jul 2025 13:31:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o1o13a6vjx"
+        },
+        {
+          "Name": "label",
+          "Value": "jquery/jquery.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        }
+      ]
+    }
+  ]
+}

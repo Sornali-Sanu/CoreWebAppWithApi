@@ -22,24 +22,58 @@
         ],
         "requestBody": {
           "content": {
-            "application/json-patch+json": {
+            "multipart/form-data": {
               "schema": {
-                "$ref": "#/components/schemas/Common"
-              }
-            },
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Common"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Common"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Common"
+                "type": "object",
+                "properties": {
+                  "EmployeeId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Name": {
+                    "type": "string"
+                  },
+                  "IsActive": {
+                    "type": "boolean"
+                  },
+                  "JoinDate": {
+                    "type": "string",
+                    "format": "date"
+                  },
+                  "ImageFile": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "ImageName": {
+                    "type": "string"
+                  },
+                  "Experiences": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "EmployeeId": {
+                  "style": "form"
+                },
+                "Name": {
+                  "style": "form"
+                },
+                "IsActive": {
+                  "style": "form"
+                },
+                "JoinDate": {
+                  "style": "form"
+                },
+                "ImageFile": {
+                  "style": "form"
+                },
+                "ImageName": {
+                  "style": "form"
+                },
+                "Experiences": {
+                  "style": "form"
+                }
               }
             }
           }
@@ -173,42 +207,5 @@
       }
     }
   },
-  "components": {
-    "schemas": {
-      "Common": {
-        "type": "object",
-        "properties": {
-          "employeeId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "name": {
-            "type": "string",
-            "nullable": true
-          },
-          "isActive": {
-            "type": "boolean"
-          },
-          "joinDate": {
-            "type": "string",
-            "format": "date"
-          },
-          "imageFile": {
-            "type": "string",
-            "format": "binary",
-            "nullable": true
-          },
-          "imageName": {
-            "type": "string",
-            "nullable": true
-          },
-          "experiences": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      }
-    }
-  }
+  "components": { }
 }

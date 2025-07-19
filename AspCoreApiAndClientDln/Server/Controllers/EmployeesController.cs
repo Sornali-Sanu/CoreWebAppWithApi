@@ -47,33 +47,31 @@ namespace Server.Controllers
             return Content(jsonString, "application/json");
         }
         [HttpPost]
-        public async Task< IActionResult> PostEmployee([FromBody] Common obj)
+        public async Task< IActionResult> PostEmployee([FromForm] Common obj)
         {
-            string imgName = obj.ImageName + ".png";
-            ImageUpload imgData= new ImageUpload();
-
-            imgData.ImgName = "\\images\\" + imgName;
+            ImageUpload fileApi = new ImageUpload();
+            string fileName = obj.ImageName + ".png";
+            fileApi.ImgName = "\\images\\" + fileName;
             if (obj.ImageFile?.Length > 0)
             {
                 if (!Directory.Exists(_web.WebRootPath + "\\images"))
                 {
                     Directory.CreateDirectory(_web.WebRootPath + "\\images\\");
                 }
-                string filePath=_web.WebRootPath+"\\images\\"+ imgName;
-                using (FileStream stream=System.IO.File.Create(filePath))
+                string filePath = _web.WebRootPath + "\\images\\" + fileName;
+                using (FileStream stream = System.IO.File.Create(filePath))
                 {
-                    obj.ImageFile.CopyToAsync(stream);
+                    obj.ImageFile.CopyTo(stream);
                     stream.Flush();
-
                 }
-                imgData.ImgName = "/images/" + imgName;
+                fileApi.ImgName = "/images/" + fileName;
             }
             Employee employee = new Employee();
             employee.Name = obj.Name;
             employee.IsActive = obj.IsActive;
             employee.JoinDate = obj.JoinDate;
-            employee.ImageName = imgData.ImgName;
-            employee.ImageUrl= imgData.ImgName;
+            employee.ImageName = fileApi.ImgName;
+            employee.ImageUrl= fileApi.ImgName;
 
             List<Experience> experienceList = JsonConvert.DeserializeObject<List<Experience>>(obj.Experiences);
             employee.Experiences = experienceList;
