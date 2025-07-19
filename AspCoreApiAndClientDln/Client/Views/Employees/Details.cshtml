@@ -1,0 +1,71 @@
+﻿@model Client.Models.Employee
+
+@{
+    ViewData["Title"] = "Employee Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string imageUrl = ViewBag.apiServer;
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg border-0">
+        <div class="row g-0">
+            <!-- Image Section -->
+            <div class="col-md-4 text-center bg-light p-4">
+                <img src="@Url.Content(imageUrl + Model.ImageUrl)" class="img-fluid rounded-circle border border-3" style="max-height: 200px;" alt="Employee Image" />
+                <h4 class="mt-3 text-primary">@Model.Name</h4>
+                <span class="badge @((Model.IsActive) ? "bg-success" : "bg-danger")">
+                    @(Model.IsActive ? "Active" : "Inactive")
+                </span>
+            </div>
+
+            <!-- Info Section -->
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title text-dark">Employee Information</h5>
+                    <table class="table table-borderless">
+                        <tr>
+                            <th>Employee ID:</th>
+                            <td>@Model.EmployeeId</td>
+                        </tr>
+                        <tr>
+                            <th>Name:</th>
+                            <td>@Model.Name</td>
+                        </tr>
+                        <tr>
+                            <th>Join Date:</th>
+                            <td>@Model.JoinDate.ToString("dd MMM yyyy")</td>
+                        </tr>
+                        <tr>
+                            <th>Is Active:</th>
+                            <td>@(Model.IsActive ? "Yes" : "No")</td>
+                        </tr>
+                    </table>
+
+                    <h6 class="mt-4 text-muted">Experience</h6>
+                    <ul class="list-group list-group-flush">
+                        @if (Model.Experiences != null && Model.Experiences.Any())
+                        {
+                            foreach (var exp in Model.Experiences)
+                            {
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <span>📌 <strong>@exp.Title</strong></span>
+                                    <span class="badge bg-secondary">@exp.Duration months</span>
+                                </li>
+                            }
+                        }
+                        else
+                        {
+                            <li class="list-group-item text-muted">No experiences added.</li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="mt-4 text-end">
+        <a asp-action="Edit" asp-route-id="@Model.EmployeeId" class="btn btn-warning me-2">✏️ Edit</a>
+        <a asp-action="Index" class="btn btn-secondary">🔙 Back to List</a>
+    </div>
+</div>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WtSvx2r9XlmuAkTAnhQeXRVDRWsXgcILvmAWAVNKiXA=",
+  "Hash": "WZmbjWbFJg/c7rxC2+lUtIA2AUv7McvdCYt9z+mal78=",
   "Source": "Server",
   "BasePath": "_content/Server",
   "Mode": "Default",
@@ -31,11 +31,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5ipweew5fc",
-      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "Fingerprint": "ff891vzfg7",
+      "Integrity": "6/9aMZdIvadq1bg1HXTirfVmkJpwacFhYLcGMCEV4E0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\backGround.jpg.png"
+    },
+    {
+      "Identity": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\backgroundemp.jpeg.png",
+      "SourceId": "Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\",
+      "BasePath": "_content/Server",
+      "RelativePath": "images/backgroundemp.jpeg#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fzfcdy31dt",
+      "Integrity": "60Dsbak+os1aibxHWwMAUr0OAZqYt1+v0kSfZBTIhG8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\backgroundemp.jpeg.png"
     },
     {
       "Identity": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\backgroundemployee.jpeg.png",
@@ -52,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5ipweew5fc",
-      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "Fingerprint": "0bq3no5dmp",
+      "Integrity": "7A4OVleqFrh1jXFkTrGdQRpQr240mT6oDwLwQgaFjt4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\backgroundemployee.jpeg.png"
@@ -94,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5ipweew5fc",
-      "Integrity": "47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "Fingerprint": "1ncp47g5i0",
+      "Integrity": "PUy9rsX6nAQxYZcZmhT7vJgGxM/McbvPebJndL24X7M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Barbie31.jpg.png"
@@ -124,7 +145,7 @@
   ],
   "Endpoints": [
     {
-      "Route": "images/backGround.jpg.5ipweew5fc.png",
+      "Route": "images/backGround.jpg.ff891vzfg7.png",
       "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\backGround.jpg.png",
       "Selectors": [],
       "ResponseHeaders": [
@@ -134,7 +155,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "50272"
         },
         {
           "Name": "Content-Type",
@@ -142,11 +163,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"6/9aMZdIvadq1bg1HXTirfVmkJpwacFhYLcGMCEV4E0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Jul 2025 13:41:10 GMT"
+          "Value": "Sat, 19 Jul 2025 14:12:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -156,7 +177,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5ipweew5fc"
+          "Value": "ff891vzfg7"
         },
         {
           "Name": "label",
@@ -164,7 +185,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-6/9aMZdIvadq1bg1HXTirfVmkJpwacFhYLcGMCEV4E0="
         }
       ]
     },
@@ -179,7 +200,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "50272"
         },
         {
           "Name": "Content-Type",
@@ -187,11 +208,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"6/9aMZdIvadq1bg1HXTirfVmkJpwacFhYLcGMCEV4E0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Jul 2025 13:41:10 GMT"
+          "Value": "Sat, 19 Jul 2025 14:12:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -201,13 +222,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-6/9aMZdIvadq1bg1HXTirfVmkJpwacFhYLcGMCEV4E0="
         }
       ]
     },
     {
-      "Route": "images/backgroundemployee.jpeg.5ipweew5fc.png",
-      "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\backgroundemployee.jpeg.png",
+      "Route": "images/backgroundemp.jpeg.fzfcdy31dt.png",
+      "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\backgroundemp.jpeg.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -216,7 +237,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "5496"
         },
         {
           "Name": "Content-Type",
@@ -224,11 +245,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"60Dsbak+os1aibxHWwMAUr0OAZqYt1+v0kSfZBTIhG8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Jul 2025 13:40:16 GMT"
+          "Value": "Sat, 19 Jul 2025 14:53:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -238,7 +259,89 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5ipweew5fc"
+          "Value": "fzfcdy31dt"
+        },
+        {
+          "Name": "label",
+          "Value": "images/backgroundemp.jpeg.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-60Dsbak+os1aibxHWwMAUr0OAZqYt1+v0kSfZBTIhG8="
+        }
+      ]
+    },
+    {
+      "Route": "images/backgroundemp.jpeg.png",
+      "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\backgroundemp.jpeg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5496"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"60Dsbak+os1aibxHWwMAUr0OAZqYt1+v0kSfZBTIhG8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 14:53:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-60Dsbak+os1aibxHWwMAUr0OAZqYt1+v0kSfZBTIhG8="
+        }
+      ]
+    },
+    {
+      "Route": "images/backgroundemployee.jpeg.0bq3no5dmp.png",
+      "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\backgroundemployee.jpeg.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6100"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7A4OVleqFrh1jXFkTrGdQRpQr240mT6oDwLwQgaFjt4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Jul 2025 14:47:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0bq3no5dmp"
         },
         {
           "Name": "label",
@@ -246,7 +349,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-7A4OVleqFrh1jXFkTrGdQRpQr240mT6oDwLwQgaFjt4="
         }
       ]
     },
@@ -261,7 +364,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "6100"
         },
         {
           "Name": "Content-Type",
@@ -269,11 +372,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"7A4OVleqFrh1jXFkTrGdQRpQr240mT6oDwLwQgaFjt4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Jul 2025 13:40:16 GMT"
+          "Value": "Sat, 19 Jul 2025 14:47:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -283,7 +386,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-7A4OVleqFrh1jXFkTrGdQRpQr240mT6oDwLwQgaFjt4="
         }
       ]
     },
@@ -310,7 +413,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Jul 2025 14:00:27 GMT"
+          "Value": "Sat, 19 Jul 2025 14:12:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -355,7 +458,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Jul 2025 14:00:27 GMT"
+          "Value": "Sat, 19 Jul 2025 14:12:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -370,7 +473,7 @@
       ]
     },
     {
-      "Route": "images/Barbie31.jpg.5ipweew5fc.png",
+      "Route": "images/Barbie31.jpg.1ncp47g5i0.png",
       "AssetFile": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\wwwroot\\images\\Barbie31.jpg.png",
       "Selectors": [],
       "ResponseHeaders": [
@@ -380,7 +483,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "131975"
         },
         {
           "Name": "Content-Type",
@@ -388,11 +491,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"PUy9rsX6nAQxYZcZmhT7vJgGxM/McbvPebJndL24X7M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Jul 2025 13:51:31 GMT"
+          "Value": "Sat, 19 Jul 2025 14:12:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -402,7 +505,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5ipweew5fc"
+          "Value": "1ncp47g5i0"
         },
         {
           "Name": "label",
@@ -410,7 +513,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-PUy9rsX6nAQxYZcZmhT7vJgGxM/McbvPebJndL24X7M="
         }
       ]
     },
@@ -425,7 +528,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "0"
+          "Value": "131975"
         },
         {
           "Name": "Content-Type",
@@ -433,11 +536,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=\""
+          "Value": "\"PUy9rsX6nAQxYZcZmhT7vJgGxM/McbvPebJndL24X7M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Jul 2025 13:51:31 GMT"
+          "Value": "Sat, 19 Jul 2025 14:12:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -447,7 +550,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU="
+          "Value": "sha256-PUy9rsX6nAQxYZcZmhT7vJgGxM/McbvPebJndL24X7M="
         }
       ]
     },
@@ -474,7 +577,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Jul 2025 13:23:34 GMT"
+          "Value": "Sat, 19 Jul 2025 14:12:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -519,7 +622,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 19 Jul 2025 13:23:34 GMT"
+          "Value": "Sat, 19 Jul 2025 14:12:42 GMT"
         },
         {
           "Name": "Cache-Control",

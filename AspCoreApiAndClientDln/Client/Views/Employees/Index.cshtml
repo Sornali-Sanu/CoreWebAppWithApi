@@ -1,78 +1,147 @@
-﻿@model IEnumerable<Client.Models.Employee>
+﻿@* @model IEnumerable<Client.Models.Employee> *@
+
+@* @{ *@
+@*     ViewData["Title"] = "Index"; *@
+@*     Layout = "~/Views/Shared/_Layout.cshtml"; *@
+@*     string imageUrl = ViewBag.apiServer; *@
+@* } *@
+
+@* <h1 style="align-items:center">EmployeeList</h1> *@
+
+@* <p> *@
+@*     <a asp-action="Create" class="btn btn-primary">Create New</a> *@
+@* </p> *@
+@* <br/> *@
+@* <div style="background-color:transparent"> *@
+
+@* </div> *@
+@* <table class="table"> *@
+@*     <thead> *@
+@*         <tr> *@
+@*             <th> *@
+@*                 @Html.DisplayNameFor(model => model.EmployeeId) *@
+@*             </th> *@
+@*             <th> *@
+@*                 @Html.DisplayNameFor(model => model.Name) *@
+@*             </th> *@
+@*             <th> *@
+@*                 @Html.DisplayNameFor(model => model.IsActive) *@
+@*             </th> *@
+@*             <th> *@
+@*                 @Html.DisplayNameFor(model => model.JoinDate) *@
+@*             </th> *@
+@*             <th> *@
+@*                 @Html.DisplayNameFor(model => model.ImageUrl) *@
+@*             </th> *@
+
+@*             <th> *@
+@*                 Experiences *@
+@*             </th> *@
+@*             <th>Actions</th> *@
+@*         </tr> *@
+@*     </thead> *@
+@*     <tbody> *@
+@*         @foreach (var item in Model) { *@
+@*             <tr> *@
+@*                 <td> *@
+@*                     @Html.DisplayFor(modelItem => item.EmployeeId) *@
+@*                 </td> *@
+@*                 <td> *@
+@*                     @Html.DisplayFor(modelItem => item.Name) *@
+@*                 </td> *@
+@*                 <td> *@
+@*                     @Html.DisplayFor(modelItem => item.IsActive) *@
+@*                 </td> *@
+@*                 <td> *@
+@*                     @Html.DisplayFor(modelItem => item.JoinDate) *@
+@*                 </td> *@
+@*                 <td> *@
+@*                     <img src="@Url.Content(imageUrl + item.ImageUrl + "?t=" + DateTime.Now.Ticks)" height="80" width="80" alt="No image found" /> *@
+@*                 </td> *@
+@*                 <td> *@
+@*                     <ul> *@
+@*                         @foreach (var exp in item.Experiences) { *@
+@*                         <li> *@
+@*                                 @Html.DisplayFor(modelItem => exp.Title) -  @Html.DisplayFor(modelItem =>exp.Duration) *@
+@*                         </li>} *@
+
+@*                </ul> *@
+@*             </td> *@
+@*             <td> *@
+@*                     @Html.ActionLink("Edit", "Edit", new { id=item.EmployeeId  }) | *@
+@*                 @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) | *@
+@*                     @Html.ActionLink("Delete", "Delete", new { id=item.EmployeeId }) *@
+@*             </td> *@
+@*         </tr> *@
+@* } *@
+@*     </tbody> *@
+@* </table> *@
+@model IEnumerable<Client.Models.Employee>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Employee List";
     Layout = "~/Views/Shared/_Layout.cshtml";
     string imageUrl = ViewBag.apiServer;
 }
 
-<h1 style="align-items:center">EmployeeList</h1>
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h2 class="text-primary">Employee List</h2>
+        <a asp-action="Create" class="btn btn-success">➕ Add New Employee</a>
+    </div>
 
-<p>
-    <a asp-action="Create" class="btn btn-primary">Create New</a>
-</p>
-<br/>
-<div style="background-color:transparent">
-
-</div>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.EmployeeId)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Name)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IsActive)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.JoinDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ImageUrl)
-            </th>
-
-            <th>
-                Experiences
-            </th>
-            <th>Actions</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model) {
+    <table class="table table-striped table-hover table-bordered shadow-sm">
+        <thead class="table-dark text-center">
             <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.EmployeeId)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Name)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.IsActive)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.JoinDate)
-                </td>
-                <td>
-                    <img src="@Url.Content(imageUrl + item.ImageUrl + "?t=" + DateTime.Now.Ticks)" height="80" width="80" alt="No image found" />
-                </td>
-                <td>
-                    <ul>
-                        @foreach (var exp in item.Experiences) {
-                        <li>
-                                @Html.DisplayFor(modelItem => exp.Title) -  @Html.DisplayFor(modelItem =>exp.Duration)
-                        </li>}
+                <th>@Html.DisplayNameFor(model => model.EmployeeId)</th>
+                <th>@Html.DisplayNameFor(model => model.Name)</th>
+                <th>@Html.DisplayNameFor(model => model.IsActive)</th>
+                <th>@Html.DisplayNameFor(model => model.JoinDate)</th>
+                <th>Image</th>
+                <th>Experiences</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody class="text-center align-middle">
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.EmployeeId)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                    <td>
+                        @if (item.IsActive)
+                        {
+                            <span class="badge bg-success">Active</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-danger">Inactive</span>
+                        }
+                    </td>
+                    <td>@Html.DisplayFor(modelItem => item.JoinDate)</td>
+                    <td>
+                        <img src="@Url.Content(imageUrl + item.ImageUrl + "?t=" + DateTime.Now.Ticks)"
+                             alt="No Image"
+                             class="rounded-circle border"
+                             height="70"
+                             width="70" />
+                    </td>
+                    <td class="text-start">
+                        <ul class="list-unstyled mb-0">
+                            @foreach (var exp in item.Experiences)
+                            {
+                                <li>📌 @exp.Title — <small class="text-muted">@exp.Duration months</small></li>
+                            }
+                        </ul>
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.EmployeeId" class="btn btn-sm btn-warning me-1">✏️ Edit</a>
+                        <a asp-action="Details" asp-route-id="@item.EmployeeId" class="btn btn-sm btn-info text-white me-1">🔍 Details</a>
+                        <a asp-action="Delete" asp-route-id="@item.EmployeeId" class="btn btn-sm btn-danger">🗑️ Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
 
-               </ul>
-            </td>
-            <td>
-                    @Html.ActionLink("Edit", "Edit", new { id=item.EmployeeId  }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                    @Html.ActionLink("Delete", "Delete", new { id=item.EmployeeId })
-            </td>
-        </tr>
-}
-    </tbody>
-</table>

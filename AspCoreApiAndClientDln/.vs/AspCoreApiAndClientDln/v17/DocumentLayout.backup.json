@@ -3,23 +3,39 @@
   "WorkspaceRootPath": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC3EFC05-B334-457B-B206-CFC6FFC4B9A2}|Server\\Server.csproj|c:\\users\\sagor\\desktop\\new folder (2)\\aspcoreapiandclientdln\\server\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC3EFC05-B334-457B-B206-CFC6FFC4B9A2}|Server\\Server.csproj|solutionrelative:server\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|c:\\users\\sagor\\desktop\\new folder (2)\\aspcoreapiandclientdln\\client\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|solutionrelative:client\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|c:\\users\\sagor\\desktop\\new folder (2)\\aspcoreapiandclientdln\\client\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|solutionrelative:client\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|c:\\users\\sagor\\desktop\\new folder (2)\\aspcoreapiandclientdln\\client\\views\\employees\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|solutionrelative:client\\views\\employees\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|c:\\users\\sagor\\desktop\\new folder (2)\\aspcoreapiandclientdln\\client\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|solutionrelative:client\\views\\employees\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ApiServerClientDB/True/SqlTable/dbo.Employees.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|c:\\users\\sagor\\desktop\\new folder (2)\\aspcoreapiandclientdln\\client\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|solutionrelative:client\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|c:\\users\\sagor\\desktop\\new folder (2)\\aspcoreapiandclientdln\\client\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|solutionrelative:client\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|c:\\users\\sagor\\desktop\\new folder (2)\\aspcoreapiandclientdln\\client\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|solutionrelative:client\\views\\employees\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|c:\\users\\sagor\\desktop\\new folder (2)\\aspcoreapiandclientdln\\client\\views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|solutionrelative:client\\views\\employees\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC3EFC05-B334-457B-B206-CFC6FFC4B9A2}|Server\\Server.csproj|c:\\users\\sagor\\desktop\\new folder (2)\\aspcoreapiandclientdln\\server\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC3EFC05-B334-457B-B206-CFC6FFC4B9A2}|Server\\Server.csproj|solutionrelative:server\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|c:\\users\\sagor\\desktop\\new folder (2)\\aspcoreapiandclientdln\\client\\models\\viewmodels\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|solutionrelative:client\\models\\viewmodels\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ApiServerClientDB/True/SqlTable/dbo.Employees.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC3EFC05-B334-457B-B206-CFC6FFC4B9A2}|Server\\Server.csproj|c:\\users\\sagor\\desktop\\new folder (2)\\aspcoreapiandclientdln\\server\\server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -66,10 +82,6 @@
       "RelativeMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|solutionrelative:client\\client.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|c:\\users\\sagor\\desktop\\new folder (2)\\aspcoreapiandclientdln\\client\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|solutionrelative:client\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|c:\\users\\sagor\\desktop\\new folder (2)\\aspcoreapiandclientdln\\client\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|solutionrelative:client\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -88,10 +100,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|c:\\users\\sagor\\desktop\\new folder (2)\\aspcoreapiandclientdln\\client\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|solutionrelative:client\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|c:\\users\\sagor\\desktop\\new folder (2)\\aspcoreapiandclientdln\\client\\models\\viewmodels\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|solutionrelative:client\\models\\viewmodels\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECBF599C-D9CB-4E37-BDE6-E3A11080B7D5}|Client\\Client.csproj|c:\\users\\sagor\\desktop\\new folder (2)\\aspcoreapiandclientdln\\client\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -113,7 +121,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 201,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -121,12 +129,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "dbo.Employees [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ApiServerClientDB/True/SqlTable/dbo.Employees.sql",
-              "ToolTip": "dbo.Employees [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-07-19T13:54:46.232Z",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\Views\\Employees\\Details.cshtml",
+              "RelativeDocumentMoniker": "Client\\Views\\Employees\\Details.cshtml",
+              "ToolTip": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\Views\\Employees\\Details.cshtml",
+              "RelativeToolTip": "Client\\Views\\Employees\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-19T14:56:40.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\Views\\Employees\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Client\\Views\\Employees\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\Views\\Employees\\Edit.cshtml",
+              "RelativeToolTip": "Client\\Views\\Employees\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-19T14:32:28.238Z",
               "EditorCaption": ""
             },
             {
@@ -137,27 +161,27 @@
               "RelativeDocumentMoniker": "Client\\Views\\Employees\\Index.cshtml",
               "ToolTip": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\Views\\Employees\\Index.cshtml",
               "RelativeToolTip": "Client\\Views\\Employees\\Index.cshtml",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAAwE4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAiwIoAAACDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-05T08:22:23.485Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "EmployeesController.cs",
               "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\Controllers\\EmployeesController.cs",
               "RelativeDocumentMoniker": "Server\\Controllers\\EmployeesController.cs",
               "ToolTip": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\Controllers\\EmployeesController.cs",
               "RelativeToolTip": "Server\\Controllers\\EmployeesController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAIwEkAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAYwI4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-06T06:09:37.643Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Client\\Views\\Home\\Index.cshtml",
@@ -165,11 +189,12 @@
               "RelativeToolTip": "Client\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-05T07:46:21.935Z"
+              "WhenOpened": "2025-07-05T07:46:21.935Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Server.csproj",
               "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\Server.csproj",
               "RelativeDocumentMoniker": "Server\\Server.csproj",
@@ -177,38 +202,46 @@
               "RelativeToolTip": "Server\\Server.csproj",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-28T16:10:20.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T16:10:20.424Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\Views\\Employees\\Create.cshtml",
               "RelativeDocumentMoniker": "Client\\Views\\Employees\\Create.cshtml",
               "ToolTip": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\Views\\Employees\\Create.cshtml",
               "RelativeToolTip": "Client\\Views\\Employees\\Create.cshtml",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAIwGQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAkwJkAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-05T08:43:25.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "EmployeesController.cs",
               "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\Controllers\\EmployeesController.cs",
               "RelativeDocumentMoniker": "Client\\Controllers\\EmployeesController.cs",
               "ToolTip": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\Controllers\\EmployeesController.cs",
               "RelativeToolTip": "Client\\Controllers\\EmployeesController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAIwEwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAmwLEAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-04T13:32:32.488Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 8,
+              "Title": "dbo.Employees.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ApiServerClientDB/True/SqlTable/dbo.Employees.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ApiServerClientDB/True/SqlTable/dbo.Employees.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-19T13:54:46.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Client\\Views\\Shared\\_Layout.cshtml",
@@ -220,19 +253,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Server",
               "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\Server.csproj",
               "RelativeDocumentMoniker": "Server\\Server.csproj",
               "ToolTip": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\Server.csproj",
               "RelativeToolTip": "Server\\Server.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-05T08:06:54.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T08:06:54.767Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Client\\Views\\Home\\Privacy.cshtml",
@@ -244,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\appsettings.json",
               "RelativeDocumentMoniker": "Server\\appsettings.json",
@@ -252,12 +284,11 @@
               "RelativeToolTip": "Server\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-28T12:22:11.348Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T12:22:11.348Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\Program.cs",
               "RelativeDocumentMoniker": "Client\\Program.cs",
@@ -269,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "Client\\Models\\Employee.cs",
@@ -281,7 +312,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
+              "Title": "common.cs",
+              "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\Models\\viewModels\\common.cs",
+              "RelativeDocumentMoniker": "Client\\Models\\viewModels\\common.cs",
+              "ToolTip": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\Models\\viewModels\\common.cs",
+              "RelativeToolTip": "Client\\Models\\viewModels\\common.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T13:35:53.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "EmployeeViewModel.cs",
               "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\Models\\viewModels\\EmployeeViewModel.cs",
               "RelativeDocumentMoniker": "Client\\Models\\viewModels\\EmployeeViewModel.cs",
@@ -293,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Server\\appsettings.Development.json",
@@ -301,12 +345,11 @@
               "RelativeToolTip": "Server\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-19T13:20:56.891Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T13:20:56.891Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\Program.cs",
               "RelativeDocumentMoniker": "Server\\Program.cs",
@@ -314,12 +357,11 @@
               "RelativeToolTip": "Server\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T12:21:16.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T12:21:16.48Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Server.http",
               "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\Server.http",
               "RelativeDocumentMoniker": "Server\\Server.http",
@@ -331,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "_AddExperiances.cshtml",
               "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\Views\\Shared\\_AddExperiances.cshtml",
               "RelativeDocumentMoniker": "Client\\Views\\Shared\\_AddExperiances.cshtml",
@@ -343,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Client\\Models\\ErrorViewModel.cs",
@@ -355,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Server\\Properties\\launchSettings.json",
@@ -367,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "Client.csproj",
               "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\Client.csproj",
               "RelativeDocumentMoniker": "Client\\Client.csproj",
@@ -375,24 +417,11 @@
               "RelativeToolTip": "Client\\Client.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-05T08:16:17.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T08:16:17.484Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "common.cs",
-              "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\Models\\viewModels\\common.cs",
-              "RelativeDocumentMoniker": "Client\\Models\\viewModels\\common.cs",
-              "ToolTip": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Client\\Models\\viewModels\\common.cs",
-              "RelativeToolTip": "Client\\Models\\viewModels\\common.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T13:35:53.999Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Common.cs",
               "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\Models\\DTOs\\Common.cs",
               "RelativeDocumentMoniker": "Server\\Models\\DTOs\\Common.cs",
@@ -404,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "Server\\Models\\Employee.cs",
@@ -416,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "ImageUpload.cs",
               "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\Models\\DTOs\\ImageUpload.cs",
               "RelativeDocumentMoniker": "Server\\Models\\DTOs\\ImageUpload.cs",
@@ -428,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "20250528162140_init.cs",
               "DocumentMoniker": "C:\\Users\\SAGOR\\Desktop\\New folder (2)\\AspCoreApiAndClientDln\\Server\\Migrations\\20250528162140_init.cs",
               "RelativeDocumentMoniker": "Server\\Migrations\\20250528162140_init.cs",

@@ -1,4 +1,5 @@
 wwwroot\images\backGround.jpg.png
+wwwroot\images\backgroundemp.jpeg.png
 wwwroot\images\backgroundemployee.jpeg.png
 wwwroot\images\Barbie31.jpg
 wwwroot\images\Barbie31.jpg.png
